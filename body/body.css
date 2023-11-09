@@ -1,0 +1,293 @@
+#grandfather{
+    width:100%;
+    height: 450px;
+}
+
+
+#container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    gap:10px;
+}
+.inp{
+     width:290px;
+     height:30px;
+     border-style: none;
+     margin-top:10px;
+     font-size: large;
+ 
+}
+button{
+    width:110px;
+    height:50px;
+    background-color:navy;
+    color: white;
+    cursor: pointer;
+}
+#search{
+    display: flex;
+   
+}
+#job{
+    display: flex;
+    border: 1px solid black;
+    gap:10px;
+    border-radius: 3px;
+}
+#city{
+    display: flex;
+    border: 1px solid black;
+    gap:10px;
+    border-radius: 3px;
+}
+label{
+    margin-top:15px;
+    margin-left: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+#job >img{
+    width:11%;
+    padding-bottom:2px;
+}
+#city> img{
+    width:11%;
+    padding-bottom:2px;
+}
+#parent{
+    display: flex;
+    width:25%;
+    margin: auto;
+    gap:3px;
+}
+#decoration{
+    text-decoration: none;
+}
+#parent >p{
+    font-size: 18px;
+}
+#parent >a>b>p{
+    font-size: 18px;
+}
+#inhindi{
+    width:15%;
+    margin: auto;
+}
+#inhindi >p>a{
+    font-size: small;
+    margin-left: 5px;
+}
+span{
+    font-size: large;
+}
+#option{
+    width: 12%;
+    margin: auto;
+   
+}
+#select{
+    width: 100%;
+    height: 60px;
+    border-style: none;
+   
+}
+
+
+/* medium screen */
+@media All and (min-width:521px) and (max-width:750px){
+    #grandfather{
+        width:100%;
+        height: 450px;
+    }
+    
+    
+    #container{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+        gap:10px;
+    }
+    .inp{
+         width:290px;
+         height:30px;
+         border-style: none;
+         margin-top:10px;
+         font-size: large;
+     
+    }
+    button{
+        width:110px;
+        height:50px;
+        background-color:navy;
+        color: white;
+        cursor: pointer;
+    }
+    #search{
+        display: flex;
+       
+    }
+    #job{
+        display: flex;
+        border: 1px solid black;
+        gap:10px;
+        border-radius: 3px;
+    }
+    #city{
+        display: flex;
+        border: 1px solid black;
+        gap:10px;
+        border-radius: 3px;
+    }
+    label{
+        margin-top:15px;
+        margin-left: 5px;
+        font-size: large;
+        font-weight: bold;
+    }
+    #job >img{
+        width:11%;
+        padding-bottom:2px;
+    }
+    #city> img{
+        width:11%;
+        padding-bottom:2px;
+    }
+    #parent{
+        display: flex;
+        width:25%;
+        margin: auto;
+        gap:3px;
+    }
+    #decoration{
+        text-decoration: none;
+    }
+    #parent >p{
+        font-size: 18px;
+    }
+    #parent >a>b>p{
+        font-size: 18px;
+    }
+    #inhindi{
+        width:15%;
+        margin: auto;
+    }
+    #inhindi >p>a{
+        font-size: small;
+        margin-left: 5px;
+    }
+    span{
+        font-size: large;
+    }
+    #option{
+        width: 12%;
+        margin: auto;
+       
+    }
+    #select{
+        width: 100%;
+        height: 60px;
+        border-style: none;
+       
+    }
+}
+/* small screen */
+@media All and (min-width:370px) and (max-width:520){
+    #grandfather{
+        width:100%;
+        height: 450px;
+    }
+    
+    
+    #container{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+        gap:10px;
+    }
+    .inp{
+         width:290px;
+         height:30px;
+         border-style: none;
+         margin-top:10px;
+         font-size: large;
+     
+    }
+    button{
+        width:110px;
+        height:50px;
+        background-color:navy;
+        color: white;
+        cursor: pointer;
+    }
+    #search{
+        display: flex;
+       
+    }
+    #job{
+        display: flex;
+        border: 1px solid black;
+        gap:10px;
+        border-radius: 3px;
+    }
+    #city{
+        display: flex;
+        border: 1px solid black;
+        gap:10px;
+        border-radius: 3px;
+    }
+    label{
+        margin-top:15px;
+        margin-left: 5px;
+        font-size: large;
+        font-weight: bold;
+    }
+    #job >img{
+        width:11%;
+        padding-bottom:2px;
+    }
+    #city> img{
+        width:11%;
+        padding-bottom:2px;
+    }
+    #parent{
+        display: flex;
+        width:25%;
+        margin: auto;
+        gap:3px;
+    }
+    #decoration{
+        text-decoration: none;
+    }
+    #parent >p{
+        font-size: 18px;
+    }
+    #parent >a>b>p{
+        font-size: 18px;
+    }
+    #inhindi{
+        width:15%;
+        margin: auto;
+    }
+    #inhindi >p>a{
+        font-size: small;
+        margin-left: 5px;
+    }
+    span{
+        font-size: large;
+    }
+    #option{
+        width: 12%;
+        margin: auto;
+       
+    }
+    #select{
+        width: 100%;
+        height: 60px;
+        border-style: none;
+       
+    }
+}
